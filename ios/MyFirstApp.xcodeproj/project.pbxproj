@@ -57,6 +57,8 @@
 		3E3E04BA9C9B4B4DB504F347 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E84A70B54AD34F0E8E4E8ADA /* SimpleLineIcons.ttf */; };
 		722A3D476BE54EBFBFEB7F96 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2646A38DFDC4435EB22392D8 /* Zocial.ttf */; };
 		0D94743D63634AC5BAEC3E4E /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1382241BDE84C3D8A071819 /* libRNGestureHandler.a */; };
+		41B879753EDA4DEB90857404 /* BrandonText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2C29B9B8A6134247A4746904 /* BrandonText-Regular.otf */; };
+		C368C156C61C481EB8728006 /* BrandonText-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F248670D6C2D43F98AF894D9 /* BrandonText-Bold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -384,6 +386,8 @@
 		2646A38DFDC4435EB22392D8 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		7090DCF0C9AF4366ABE571DA /* RNGestureHandler.xcodeproj */ = {isa = PBXFileReference; name = "RNGestureHandler.xcodeproj"; path = "../node_modules/react-native-gesture-handler/ios/RNGestureHandler.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		C1382241BDE84C3D8A071819 /* libRNGestureHandler.a */ = {isa = PBXFileReference; name = "libRNGestureHandler.a"; path = "libRNGestureHandler.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		2C29B9B8A6134247A4746904 /* BrandonText-Regular.otf */ = {isa = PBXFileReference; name = "BrandonText-Regular.otf"; path = "../fonts/BrandonText-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F248670D6C2D43F98AF894D9 /* BrandonText-Bold.otf */ = {isa = PBXFileReference; name = "BrandonText-Bold.otf"; path = "../fonts/BrandonText-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -670,6 +674,8 @@
 				7C0FF68D9EEC4B62BDE05B6E /* rubicon-icon-font.ttf */,
 				E84A70B54AD34F0E8E4E8ADA /* SimpleLineIcons.ttf */,
 				2646A38DFDC4435EB22392D8 /* Zocial.ttf */,
+				2C29B9B8A6134247A4746904 /* BrandonText-Regular.otf */,
+				F248670D6C2D43F98AF894D9 /* BrandonText-Bold.otf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1139,6 +1145,8 @@
 				E8BBB8815B6144518AA3103F /* rubicon-icon-font.ttf in Resources */,
 				3E3E04BA9C9B4B4DB504F347 /* SimpleLineIcons.ttf in Resources */,
 				722A3D476BE54EBFBFEB7F96 /* Zocial.ttf in Resources */,
+				41B879753EDA4DEB90857404 /* BrandonText-Regular.otf in Resources */,
+				C368C156C61C481EB8728006 /* BrandonText-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

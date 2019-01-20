@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { Root } from 'native-base'
 import { createStackNavigator, createAppContainer } from "react-navigation"
-import HomeScreen from './Home'
-import AboutScreen from './About'
+import HomeScreen from './components/Home'
+import AboutScreen from './components/About'
 
 const AppNavigator = createStackNavigator(
   {
@@ -10,7 +10,8 @@ const AppNavigator = createStackNavigator(
     About: AboutScreen
   },
   {
-    initialRouteName: 'Home'
+    initialRouteName: 'Home',
+    headerMode: 'none'
   }
 );
 const AppContainer = createAppContainer(AppNavigator)

@@ -4,6 +4,6 @@ import {
 
 export default StyleSheet.create({
   container: {
-    backgroundColor: 'red'
+    backgroundColor: 'white'
   },
 });
