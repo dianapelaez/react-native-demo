@@ -3,6 +3,8 @@ package com.myfirstapp;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.cmcewen.blurview.BlurViewPackage;
+import com.BV.LinearGradient.LinearGradientPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.proyecto26.inappbrowser.RNInAppBrowserPackage;
 import com.facebook.react.ReactNativeHost;
@@ -25,7 +27,9 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new RNGestureHandlerPackage(),
+            new BlurViewPackage(),
+          new LinearGradientPackage(),
+          new RNGestureHandlerPackage(),
           new RNInAppBrowserPackage()
       );
     }
